@@ -1,0 +1,7 @@
+PROGRAM Reconhecido na entrada
+ID Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+BEGIN Reconhecido na entrada
+PRINT Reconhecido na entrada
+STRING_LITERAL Reconhecido na entrada
+END Reconhecido na entrada

@@ -1,0 +1,45 @@
+
+#################################################################################
+
+                             ANALISADOR LEXICO 
+
+                           ##########################                            
+TOKEN           LEXEMA         LINHA
+--------------  -----------  -------
+PROGRAM         program            1
+ID              calc               1
+PCOMMA          ;                  1
+BEGIN           begin              3
+PRINT           print              3
+STRING_LITERAL  "ximbalaie"        3
+END             end                5
+EOF                                5
+#################################################################################
+
+                             ANALISADOR SINTATICO 
+
+                           ##########################                            
+PROGRAM Reconhecido na entrada
+ID Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+BEGIN Reconhecido na entrada
+PRINT Reconhecido na entrada
+STRING_LITERAL Reconhecido na entrada
+END Reconhecido na entrada
+
+#################################################################################
+ 
+                            ANALISADOR SEMANTICO 
+
+                           ##########################                            
+ 
+                Fim da Analise semantica : Sem ERROS 
+
+#################################################################################
+ 
+                               TABELA DE SIMBOLOS 
+
+                           ##########################                            
+VARIAVEL    TIPO    LINHA
+----------  ------  -------
+#################################################################################

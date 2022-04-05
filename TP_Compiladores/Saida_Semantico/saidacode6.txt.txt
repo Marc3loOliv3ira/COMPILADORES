@@ -1,0 +1,1 @@
+Erro de compatibilidade na linha : 8 : REAL com STRING 

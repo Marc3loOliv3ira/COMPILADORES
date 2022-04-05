@@ -1,0 +1,7 @@
+VARIAVEL    TIPO      LINHA
+----------  ------  -------
+x           REAL          2
+y           REAL          2
+z           REAL          2
+nome        STRING        3
+endereco    STRING        3

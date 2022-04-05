@@ -1,0 +1,46 @@
+PRÉ - REQUISITOS
+INSTALAR A BIBLIOTECA TABULATE NO PYTHON.
+
+
+
+COMO EXECUTAR
+Caso queira executar somente o analisador lexico, basta compilar o arquivo Analisador_Lexico
+informar o nome do arquivo  ex: code1.pascal e verificar a saida na pasta Saida_Lexico em formato txt
+na saida irá conter saida"Nome do arquivo".txt
+
+Caso queira executar o analisador sintatico a tabela e o semantico, basta executar o arquivo Analisador_Sintatico
+em seguida informar o nome do arquivo ex: code1.pascal e a partir dai a saida estara nas pastas: Saida_Sintatico, Saida_Semantico
+Saida_Tabela
+
+OBSERVAÇOES IMPORTANTES
+
+Para facilitar a correção ao executar o analisador sintatico a pasta arquivos gerais irá conter um arquivo com o nome de Analises"Nome do arquivo".txt
+Que vai ter todos os resultados da compilação : sintatico,lexico,semantico e tabela :3
+
+Na analise semantica o ERRO de variavel redeclarada , ocorre, entretanto a variavel é redeclarada para continuar a analise.
+
+O projeto foi implementado em python, no pycharm.
+
+MUITO IMPORTANTE
+
+EM HIPOTESE ALGUMA DEIXE ESPAÇAMENTO OU QUEBRA DE LINHA AO FINAL DO ARQUIVO, o arquivo irá compilar normalmente entretatnto será criado um 
+ID a mais seja ele da quebra de linha ou Do espaçamento, mas NÂO IRÁ CONTAR na analise semantica nem na sintatica.
+
+ARQUIVOS TESTADOS
+
+code1.pascal -> O codigo está completamente correto
+code2.pascal -> Há um erro lexico pois há um @ não está no dicionario 
+code3.pascal -> Erro sintatico esta faltando um PCOMMA 
+code4.pascal -> Erro semantico Variavel w não declarada
+code5.pascal -> Erro semantico uma variavel foi redeclarada
+code6.pascal -> Erro Semantico erro de compatibilidade
+code7.pascal -> Codigo só com print nenhum erro
+code8.pascal -> Erro sintatico variavel sem tipo definido
+
+
+
+Aproveite.
+
+
+
+ 

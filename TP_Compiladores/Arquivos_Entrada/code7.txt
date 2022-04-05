@@ -1,0 +1,4 @@
+program calc;
+	begin
+		print "ximbalaie"
+	end

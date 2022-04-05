@@ -1,0 +1,2 @@
+ERRO SEMANTICO : A variavel w na linha 7 não foi declarada  
+A variavel w na linha 8 não foi declarada  

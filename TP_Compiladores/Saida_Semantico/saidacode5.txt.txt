@@ -1,0 +1,2 @@
+ERRO SEMANTICO: variavel nome ja foi declarada na linha 4
+A variavel nome foi redeclarada para continuar a analise Semantica

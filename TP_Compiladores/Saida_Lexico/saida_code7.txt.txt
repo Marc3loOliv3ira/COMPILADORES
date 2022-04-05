@@ -1,0 +1,10 @@
+TOKEN           LEXEMA         LINHA
+--------------  -----------  -------
+PROGRAM         program            1
+ID              calc               1
+PCOMMA          ;                  1
+BEGIN           begin              3
+PRINT           print              3
+STRING_LITERAL  "ximbalaie"        3
+END             end                5
+EOF                                5

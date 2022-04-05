@@ -1,0 +1,129 @@
+
+#################################################################################
+
+                             ANALISADOR LEXICO 
+
+                           ##########################                            
+TOKEN           LEXEMA                      LINHA
+--------------  ------------------------  -------
+PROGRAM         program                         1
+ID              calc                            1
+PCOMMA          ;                               1
+VAR             var                             2
+ID              x                               2
+COMMA           ,                               2
+ID              y                               2
+COMMA           ,                               2
+ID              z                               2
+TWOPOINT        :                               2
+REAL            real                            2
+PCOMMA          ;                               2
+VAR             var                             3
+ID              nome                            3
+COMMA           ,                               3
+ID              endereco                        3
+TWOPOINT        :                               3
+STRING          string                          3
+PCOMMA          ;                               3
+BEGIN           begin                           5
+ID              x                               5
+ATTR            :=                              5
+REAL_CONST      3.15                            5
+PCOMMA          ;                               5
+ID              y                               6
+ATTR            :=                              6
+REAL_CONST      2.4                             6
+PCOMMA          ;                               6
+IF              if                              7
+ID              x                               7
+THEN            then                            8
+ID              z                               8
+ATTR            :=                              8
+ID              nome                            8
+MINUS           -                               8
+ID              y                               8
+PCOMMA          ;                               8
+END             end                            10
+ID              nome                           10
+ATTR            :=                             10
+STRING_LITERAL  "skdfkm23235FNFOWOF?"          10
+PCOMMA          ;                              10
+ID              endereco                       11
+ATTR            :=                             11
+STRING_LITERAL  "Rua Fulad_2 139, 234 #"       11
+PCOMMA          ;                              11
+END             end                            12
+EOF                                            14
+#################################################################################
+
+                             ANALISADOR SINTATICO 
+
+                           ##########################                            
+PROGRAM Reconhecido na entrada
+ID Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+VAR Reconhecido na entrada
+ID Reconhecido na entrada
+COMMA Reconhecido na entrada
+ID Reconhecido na entrada
+COMMA Reconhecido na entrada
+ID Reconhecido na entrada
+TWOPOINT Reconhecido na entrada
+REAL Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+VAR Reconhecido na entrada
+ID Reconhecido na entrada
+COMMA Reconhecido na entrada
+ID Reconhecido na entrada
+TWOPOINT Reconhecido na entrada
+STRING Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+BEGIN Reconhecido na entrada
+ID Reconhecido na entrada
+ATTR Reconhecido na entrada
+REAL_CONST Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+ID Reconhecido na entrada
+ATTR Reconhecido na entrada
+REAL_CONST Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+IF Reconhecido na entrada
+ID Reconhecido na entrada
+THEN Reconhecido na entrada
+ID Reconhecido na entrada
+ATTR Reconhecido na entrada
+ID Reconhecido na entrada
+MINUS Reconhecido na entrada
+ID Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+END Reconhecido na entrada
+ID Reconhecido na entrada
+ATTR Reconhecido na entrada
+STRING_LITERAL Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+ID Reconhecido na entrada
+ATTR Reconhecido na entrada
+STRING_LITERAL Reconhecido na entrada
+PCOMMA Reconhecido na entrada
+END Reconhecido na entrada
+
+#################################################################################
+ 
+                            ANALISADOR SEMANTICO 
+
+                           ##########################                            
+Erro de compatibilidade na linha : 8 : REAL com STRING 
+
+#################################################################################
+ 
+                               TABELA DE SIMBOLOS 
+
+                           ##########################                            
+VARIAVEL    TIPO      LINHA
+----------  ------  -------
+x           REAL          2
+y           REAL          2
+z           REAL          2
+nome        STRING        3
+endereco    STRING        3
+#################################################################################
